@@ -7,7 +7,7 @@ const server = http.createServer((req, res) => {
     res.statusCode = 200;
     res.setHeader("Content-Type", "text/plain");
     res.setHeader("Access-Control-Allow-Origin", "*");
-    res.end(greet(name));
+    res.end(greet("Error"));
 });
 
 const port = 3000;
